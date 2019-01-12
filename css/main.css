@@ -1,0 +1,378 @@
+*
+{
+    box-sizing: border-box;
+    transition: all .5s ease-in-out
+}
+body
+{
+    font-family: "Oswald";
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0
+}
+section
+{
+    padding: 70px 0px;
+}
+.overlay
+{
+    padding: 70px 0px;
+    background-color: rgba(0,0,0,.7);
+}
+h1
+{
+    text-align: center;
+    font-size: 80px;
+    padding: 50px 0px;
+    margin-bottom: 30px
+}
+/*navbar*/
+.navbar
+{
+    background-color: transparent;
+    border-bottom: 1px solid #bebebe;
+    color: white !important;
+    padding-bottom: 1px;
+}
+.navbar a
+{
+   color: white !important; 
+}
+.navbar a:hover,.navbar i:hover
+{
+    color: #bfbfbf !important
+}
+.navbar-nav
+{
+    margin: auto;
+    padding: 10px 0 0;
+}
+.nav-item
+{
+    border-bottom: 1px solid transparent;
+    padding-bottom: 0;
+    opacity: .9;
+}
+.nav-item:hover
+{
+    border-bottom: 1px solid white;
+    color: white;
+    opacity: 1;
+}
+.navbar-toggler
+{
+    color: white !important
+}
+.navbar-dark .navbar-nav .nav-link
+{
+    color: white !important;
+    padding-bottom: 5px
+}
+/*home*/
+#home
+{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0px;
+    color: white;
+    text-align: center;
+    line-height: 3em;
+}
+#home h1
+{ 
+   margin: 60px auto 10px;
+    font-size: 150px
+}
+#home h6
+{
+    margin-top: 150px
+}
+#home i
+{
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px white solid;
+    cursor: pointer
+}
+#home i:hover
+{
+    background-color: #222222
+}
+/*features*/
+#features
+{
+    text-align: center;
+    background-color: #11749e;
+    color: white;
+}
+#features h1
+{
+    position: relative;
+    margin-bottom: 100px
+}
+#features span.bg
+{
+    position: absolute;
+    top: 0;
+    left: 45%;
+    display: block;
+    color: #5993b2;
+    font-size: 2em;
+    margin:10px auto;
+    opacity: .4
+}
+
+#features i
+{
+    padding: 30px;
+    border-radius: 50%;
+    background-color: #2e85aa;
+    margin-bottom: 20px
+}
+/*pages*/
+#pages
+{
+    padding: 0px;
+    line-height: 2em;
+    overflow-x: hidden
+}
+.col-md-6
+{
+    padding: 70px 40px;
+    background-size: cover !important;
+    background-attachment: fixed;
+    min-height: 50vh;
+    
+}
+/*blog*/
+#blog
+{
+    text-align: center
+}
+#blog h1
+{
+    position: relative;
+    padding: 0
+}
+#blog h1 span
+{
+    position: absolute;
+    top: -50%;
+    left: 48%;
+    opacity: .2;
+    font-size: 2em  
+}
+#blog h6
+{
+   padding: 30px 0 
+}
+#blog h3
+{
+    text-align: center;
+    margin-bottom: 60px
+}
+#blog .col-md-3 img
+{
+    width: 100%;
+    height: 200px
+}
+/*extension*/
+#extension
+{
+    background-color: #11749e;
+    color: white;
+    text-align: left
+}
+/*info*/
+#info
+{
+    padding: 0;
+    background-image: url(../images/info.jpeg);
+    background-attachment: fixed;
+    color: white
+}
+#info .progress-bar
+{
+    
+    
+    padding: 10px 0 20px;
+    
+    
+}
+#info .progress
+{
+    margin-top: 20px
+}
+/*team*/
+#team
+{
+    text-align: center
+}
+#team h1
+{
+    position: relative;
+    padding: 0
+}
+#team h1 span
+{
+    position: absolute;
+    top: -50%;
+    left: 48%;
+    opacity: .2;
+    font-size: 2em  
+}
+#team .col-md-3
+{
+    position: relative;
+    padding: 30px 30px 0;
+}
+#team .col-md-3 img
+{
+    width: 100%;
+    height: 300px
+}
+
+#team .col-md-3 .info-box
+{
+    position: absolute;
+    bottom: 0;
+    
+    background-color: white;
+    padding: 10px 20px;
+    left: 30%;
+}
+#team h5
+{
+    color: #11749e
+}
+#team h3
+{
+    text-align: center;
+    margin-bottom: 60px
+}
+/*contact*/
+#contact
+{
+    text-align: center;
+    padding: 0px;
+    background-image: url(../images/contact.jpeg);
+    background-attachment: fixed;
+    color: white
+}
+#contact h1
+{
+    position: relative;
+    padding: 0;
+    margin-bottom: 50px
+}
+#contact h1 span
+{
+    position: absolute;
+    top: -50%;
+    left: 48%;
+    opacity: .2;
+    font-size: 2em  
+}
+#contact input,#contact textarea
+{
+    display: block;
+    padding: 10px 20px;
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    color: white
+    
+}
+::placeholder
+{
+    color: white
+}
+a.btn-primary
+{
+    background-color: #11749e;
+    border: none;
+    border-radius: 0;
+    width: 200px
+}
+/*footer*/
+footer
+{
+    background-color: #222222;
+    color: white;
+    padding: 10px
+}
+footer p
+{
+    padding: 0;
+    margin: 0
+}
+@media screen and (max-width:400px)
+{
+    h1
+{
+    text-align: center;
+    font-size: 50px;
+    padding:0;
+    margin-bottom: 30px
+}
+    #home h1
+{ 
+    margin: 60px auto 10px;
+    font-size: 60px
+}
+}
+@media screen and (max-width:660px)
+{
+
+    #home h1
+{ 
+    margin: 60px auto 10px;
+    font-size: 60px
+}
+    #h1fix
+    {
+    text-align: center;
+    font-size:70px;
+    padding: 50px 0px;
+    margin-bottom: 30px 
+    }
+}
+@media screen and (max-width:700px)
+{
+*{
+    text-align: center
+}
+    #h1fix
+    {
+    text-align: center;
+    font-size:70px;
+    padding: 50px 0px;
+    margin-bottom: 30px 
+    }
+    #features h1
+{
+    position: relative;
+    margin-bottom: 100px
+}
+#features span.bg
+{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    display: block;
+    color: #5993b2;
+    font-size: 2em;
+    margin:10px auto;
+    opacity: .4
+}
+.navbar{
+    background-color: #222222;
+    
+}
+#contactSpan{
+    top:10% !important;
+}
+}
